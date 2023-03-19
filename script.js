@@ -3,3 +3,4 @@ $(document).ready(function(){
 })
 $("img").addClass("image-holder");
 $("p").last().remove();
+$("title").style.font = Math.floor(Math.random()*100);
